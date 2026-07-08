@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+
+@import '~/styles/components/link.css';
+@import '~/styles/utilities/area.css';
