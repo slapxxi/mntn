@@ -1,7 +1,7 @@
 @layer objects {
   .wrapper {
     display: grid;
-    grid-template-rows: [header] min-content [header-end] auto [hero-end];
+    grid-template-rows: [header] min-content [header-end] 1fr [hero-end];
     grid-template-columns:
       [full] 1fr [wide] minmax(0, 138px) [content] repeat(10, minmax(0, 138px))
       [content-end] minmax(0, 138px)

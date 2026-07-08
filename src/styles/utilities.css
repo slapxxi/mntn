@@ -13,6 +13,11 @@
   line-height: var(--tw-leading, var(--text-lg--line-height) /* 1 */);
 }
 
+@utility text-fluid-2xl {
+  font-size: clamp(1.125rem, 0.989rem + 0.68vw, 1.5rem);
+  line-height: var(--tw-leading, var(--text-2xl--line-height) /* 1 */);
+}
+
 @utility text-fluid-3xl {
   font-size: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
   line-height: var(--tw-leading, var(--text-3xl--line-height) /* 1 */);
