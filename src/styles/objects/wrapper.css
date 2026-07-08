@@ -1,12 +1,15 @@
 @layer objects {
   .wrapper {
     display: grid;
-    grid-template-rows: [header] min-content [header-end] 1fr [hero-end];
+    grid-template-rows: [header hero] min-content [header-end] 1fr [hero-end];
     grid-template-columns:
-      [full] 1fr [wide] minmax(0, 138px) [content] repeat(10, minmax(0, 138px))
+      [full hero] minmax(0, 1fr) [wide] minmax(0, 138px) [content] repeat(
+        10,
+        minmax(0, 138px)
+      )
       [content-end] minmax(0, 138px)
       [wide-end]
-      1fr [full-end];
+      minmax(0, 1fr) [full-end hero-end];
     min-height: 100vh;
     column-gap: 10px;
   }

@@ -1,5 +1,5 @@
 @layer base {
   body {
-    @apply font-text;
+    @apply font-text bg-xgray-800 text-white;
   }
 }

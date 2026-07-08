@@ -1,5 +1,21 @@
 @layer components {
   .title {
-    @apply font-title text-2xl font-bold;
+    @apply font-title leading-none font-semibold;
+  }
+
+  .subtitle {
+    @apply text-xamber-200 font-semibold text-fluid-lg;
+    display: inline-grid;
+    grid-template-columns: 72px auto;
+    gap: 32px;
+    text-transform: uppercase;
+    align-items: center;
+
+    &::before {
+      content: '';
+      height: 2px;
+      background-color: currentColor;
+      transform: translateY(-100%);
+    }
   }
 }
