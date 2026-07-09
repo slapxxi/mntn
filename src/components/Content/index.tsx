@@ -4,7 +4,7 @@ import config from './config'
 export const Content = () => {
   return (
     <main className="mb-50 grid grid-flow-dense gap-y-50 area-main md:grid-cols-subgrid">
-      {config.sections.map((section, i) => (
+      {config.sections.map((section) => (
         <div className="group contents">
           <img
             src={section.img}
