@@ -34,7 +34,7 @@
 }
 
 @utility text-fluid-6xl {
-  font-size: clamp(3rem, 2.727rem + 1.36vw, 3.75rem);
+  font-size: clamp(3rem, 2.636rem + 1.82vw, 4rem);
   line-height: var(--tw-leading, var(--text-6xl--line-height) /* 1 */);
 }
 

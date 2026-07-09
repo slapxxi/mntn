@@ -6,7 +6,7 @@
   .subtitle {
     @apply text-xamber-200 font-semibold text-fluid-lg;
     display: inline-grid;
-    grid-template-columns: 72px auto;
+    grid-template-columns: minmax(32px, 72px) auto;
     gap: 32px;
     text-transform: uppercase;
     align-items: center;
