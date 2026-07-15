@@ -14,7 +14,7 @@ export const Content = () => {
 
           <section
             key={section.title}
-            className="grid grid-cols-[[full]minmax(20px,150px)_[main]auto[main-end_full-end]]
+            className="grid grid-cols-[[full]minmax(10px,min(30vw,140px))_[main]auto[main-end_full-end]]
             grid-rows-[[header]auto[header-end]] 
             gap-y-7 self-center md:col-span-5 group-even:md:col-[6/-1]"
           >

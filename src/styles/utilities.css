@@ -38,6 +38,11 @@
   line-height: var(--tw-leading, var(--text-6xl--line-height) /* 1 */);
 }
 
+@utility text-fluid-7xl {
+  font-size: clamp(2.75rem, 1.75rem + 5vw, 5.5rem);
+  line-height: var(--tw-leading, var(--text-6xl--line-height) /* 1 */);
+}
+
 @utility clip-angle {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 120px), 0 100%);
 }

@@ -11,10 +11,10 @@ export const Hero = () => {
         mask-y-from-50% mask-x-from-99% opacity-80 [grid-area:hero]"
       />
 
-      <section className="z-10 col-[content] row-2 mx-auto grid max-w-prose grid-rows-[70px_min-content]">
+      <section className="z-10 col-[content] row-2 mb-8 mx-auto grid max-w-prose grid-rows-[70px_min-content]">
         <header className="row-2 grid gap-y-8 self-start">
           <h2 className="subtitle">A Hiking Guide</h2>
-          <h1 className="title text-[88px]">
+          <h1 className="title text-fluid-7xl">
             Be prepared for the Mountains and beyond!
           </h1>
           <div className="row-3 flex items-center gap-4 self-start text-fluid-lg font-bold">
